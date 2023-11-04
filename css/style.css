@@ -1,0 +1,109 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    padding: 20px ;
+    min-height: 100vh;
+    background-color: fad356;
+}
+
+h1{
+    margin: 1em 0;
+    text-align: center;
+}
+
+
+main{
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.em-E{
+    transform: rotateZ('180');
+}
+
+div.accod-area{
+    margin-bottom: 40px;
+}
+div.accod-area ul{
+    max-width: 60%;
+    min-width: 450px;
+    margin: auto;
+    list-style: none;
+}
+div.accod-area .label{
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-bottom: 1xp solid #000000;
+}
+div.accod-area .label.active{
+    background-color: #652b67;
+    color: white;
+}
+div.accod-area .info{
+    padding: 20px;
+    display: none;
+    border-top: none;
+    background-color: #ffffff;
+}
+div.accod-area .info.active{
+    display: block;
+}
+
+img{
+    width: 20%;
+}
+
+div p a{
+    color: white;
+}
+
+.tabs{
+    padding: 20px 0;
+}
+.tabs > div{
+    margin-bottom: 20px;
+}
+.tab-btns{
+    
+    text-align: center;
+    
+}
+.tab-btns .btn, .tab-btns .bttn{
+    padding: 10px 100px;
+    font-size: 1.2em;
+    font-weight: 500;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #f5f5f5;
+    margin-right: 5%;
+}
+
+.tab-btns .btn.active, .tab-btns .bttn.active{
+    position: relative;
+    background-color: #652b67;
+    border: 1px solid #b086b7;
+    border-bottom-color: #f5f5f5;
+    color: white;
+}
+.tab-btns .btn.active::after, .tab-btns .bttn.active::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: -2; left: 0; right: 0;
+    background-color: #652b67;
+    color: white;
+}
+.panels .panel, .panels .t-panel{
+    padding: 20px;
+    display: none;
+}
+.panels .panel.active, .panels .t-panel.active{
+    display: block;
+    background-color: #652b67;
+    border: 1px solid #b086b7;
+    color: white
+}
