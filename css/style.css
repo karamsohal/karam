@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.search-container {
+    margin: 20px;
+}
+
+#characters-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px;
+}
+
+#characters-table th, #characters-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#characters-table th {
+    background-color: #f2f2f2;
+}
+
+#characters-table .highlighted {
+    background-color: darkgreen;
+    color: white;
+}
+
+#characters-table img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.filter-buttons {
+    margin: 20px;
+}
+
+.filter-buttons button {
+    margin-right: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
